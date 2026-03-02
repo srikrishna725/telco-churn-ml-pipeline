@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model artifacts
+models/*.pkl
+models/*.joblib
+
+# Processed data (optional)
+data/processed/*
+
+# Large raw data files (if dataset is large)
+# Uncomment below if needed
+# data/raw/*
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# VS Code settings
+.vscode/
+
+# Temporary files
+*.tmp
